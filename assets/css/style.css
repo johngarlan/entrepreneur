@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+	background: #ff9800cf;
+}
+
+.fab{
+	margin-right: 10px;
+}
+
+.bg-home{
+	background: url(../images/bg.jpg);
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 24px;
+}
+
+/*HOME STYLE*/
+#about{
+	height: 45vh;
+	background: #f5fdf54a;
+	padding: 30px 0 30px 0;
+	width: 100%;
+}
+
+#about h1{
+	text-align: center;
+}
+.content{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#cources-picture{
+	height: 70vh;
+	background: pink;
+	margin: 20px;
+	padding: 10px
+}
+
+.c1{
+	width: 49%;
+	height: 100%;
+	background: green;
+	float: left;
+
+}
+
+.c-group{
+	width: 49%;
+	height: 100%;
+	background: green;
+	float: right;
+}
+
+.c2{
+	height: 25%
+	width: 50%;
+	background: black;
+}
+
+#stories{
+	height: 50vh;
+	background: black;
+}
+#footer{
+	height: 10vh;
+	width: 100%;
+	background: #141414;
+	color: #ffffff;
+}
+
+/*END OF HOME STYLE*/
+
+
+/*ABOUT STYLE*/
+.bg-about{
+	height: 80vh;
+	width: 100%;
+	background: url(../images/aa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mission{
+	height: 80vh;
+	width: 100%;
+	background: #efefef;
+}
+
+.vission{
+	height: 80vh;
+	width: 100%;
+	background: #fffcfb;
+}
+/*END OF ABOUT STYLE*/
+
+
+
+/*CATEGORIES*/
+.bg-categories{
+	background: url(../images/sport.jpg);
+	height: 80vh;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 24px;
+}	
+
+.it{
+	height: 80vh;
+	width: 100%;
+	background: green;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;	
+}
+
+.business{
+	height: 80vh;
+	width: 100%;
+	background: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;		
+}
+
+.sports{
+	height: 80vh;
+	width: 100%;
+	background: orange;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;		
+}
+/*END OF CATEGORIES*/
+
