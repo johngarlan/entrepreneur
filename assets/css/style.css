@@ -290,10 +290,6 @@ a.navbar-brand{
 
 
 
-
-
-
-
 /*START OF CONTACT US STYLE*/
 
 .bg-categories{
@@ -350,31 +346,6 @@ legend{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* SART OF SOCIAL MEDIA ICON*/
 .social-media{
 	height: 10vh;
@@ -418,6 +389,68 @@ legend{
 /*END OF FOOTER STYLE*/
 
 
+
+
+
+
+
+/*START OF CATEGORIES STYLE*/
+
+
+
+.categories-intro{
+	height: 10vh;
+	width: 100%;
+}
+
+.myframe{
+	width: 100%;
+	height: 500px;
+}
+
+
+.carousel{
+	height: 50%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.categories{
+	height: 10vh;
+	width: 100%;
+}
+
+.categories h3{
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 2px solid #000;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.categories .nyay{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 2px solid #000;
+	font-family: 'Kaushan Script', cursive;	
+}
+
+.card{
+	width: 13rem;
+	margin: 7px;
+}
+
+.card-title{
+	text-align: center;
+	font-weight: bolder;	
+}
+
+.card-text{
+	font-size: small;
+}
+
+/*END OF CATEGORIES STYLE*/
 
 
 
