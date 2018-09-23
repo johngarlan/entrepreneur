@@ -3,14 +3,64 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+
+
+/*START OF NAV STYLE*/
 
 .navbar{
-	background: #ff9800cf;
+	background: #84715659;
+}
+
+a.navbar-brand{
+	color: #000;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Cinzel','Quicksand', serif, sans-serif ;
+    font-weight: 800;
+}
+
+.logo{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+
+
+.nav-link{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+
+}
+.nav-link a{
+	padding-right: 2rem;
+	padding-left: 2rem;
+	font-family: 'Quicksand', sans-serif;	
+}
+
+.nav-link:hover{
+	color: #000;
+	background: orange;
+	border-radius: 10px;
+	font-weight: 800;
 }
 
 .fab{
 	margin-right: 10px;
 }
+/*END OF NAV STYLE*/
+
+
+
+/*START OF HOME STYLE*/
 
 .bg-home{
 	background: url(../images/bg.jpg);
@@ -20,6 +70,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding-top: 24px;
+	margin-top: 65.5px;
 }
 
 /*HOME STYLE*/
@@ -28,10 +79,12 @@
 	background: #f5fdf54a;
 	padding: 30px 0 30px 0;
 	width: 100%;
+	margin-top: 10%;
 }
 
 #about h1{
 	text-align: center;
+	font-family: 'Kaushan Script', cursive;
 }
 .content{
 	width: 70%;
@@ -39,68 +92,157 @@
 	text-align: center;
 }
 
-#cources-picture{
-	height: 70vh;
-	background: pink;
-	margin: 20px;
-	padding: 10px
-}
 
-.c1{
-	width: 49%;
-	height: 100%;
+.cwrapper{
+	height: 50vh;
+	width: 100%;
 	background: green;
-	float: left;
-
 }
 
-.c-group{
-	width: 49%;
+.pic-courses li{
+	list-style: none;
+}
+
+.pic-courses{
 	height: 100%;
-	background: green;
-	float: right;
+	width: 100%
 }
 
-.c2{
-	height: 25%
+
+.course-1{
+	height: 50vh;
 	width: 50%;
-	background: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	list-style: none;
+	display: inline-block;	
 }
+
+.course-2, .course-3, .course-4, .course-5{
+	height: 25vh;
+	width: 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	list-style: none;	
+}
+
+.stories-header{
+	height: 10vh;
+	width: 100%;
+	background: #f3f3f3;
+	padding-top: 20px;
+}
+
+.s-content{
+	height: 100%;
+	width: 80%;
+	border-bottom: 1px solid grey;
+	margin: 0 auto;
+}
+
+.s-content h3{
+	text-align: center;
+	color: #000;
+	font-family: 'Kaushan Script', cursive;
+}
+
 
 #stories{
 	height: 50vh;
-	background: black;
+	background: #f3f3f3;
 }
-#footer{
-	height: 10vh;
-	width: 100%;
-	background: #141414;
-	color: #ffffff;
+
+.cardo {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #e0e3e6;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 20px;
+    margin-left: 105px;
 }
+
+.one{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-left: 30%;
+}
+
+
 
 /*END OF HOME STYLE*/
 
 
+
 /*ABOUT STYLE*/
-.bg-about{
-	height: 80vh;
+
+.jumbo-container{	
+	height: 90vh;
 	width: 100%;
-	background: url(../images/aa.jpg);
+	background: url(../images/team2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center center;	
+	vertical-align: middle;
 }
 
-.mission{
-	height: 80vh;
-	width: 100%;
-	background: #efefef;
+
+
+	/*MEET THE TEAM STYLE*/
+.jumbotron{
+	background: transparent;
 }
 
-.vission{
-	height: 80vh;
-	width: 100%;
-	background: #fffcfb;
+
+#landing-about{
+	font-family: 'Kaushan Script', cursive;	
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	color: #fff;
+}
+	/*END OF MEET THE TEAM*/
+
+.fadeIn{
+	animation-duration: 6s;
+}
+
+#mission, #vission{
+	height: 100%;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;		
+}
+
+#mission p, #vission p{
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+#mission h2, #vission h2{
+	border-bottom: 2px solid black;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+#vission{
+	height: 100%;
+	background-color: #f3f3f3;
+	color: #141414;
 }
 /*END OF ABOUT STYLE*/
 
@@ -144,4 +286,183 @@
 	background-position: center center;		
 }
 /*END OF CATEGORIES*/
+
+
+
+
+
+
+
+
+/*START OF CONTACT US STYLE*/
+
+.bg-categories{
+	margin-top: 65.5px;
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.mapa{
+	padding-top: 8%;
+}
+
+.message{
+	height: 70%;
+	width: 50%;
+	padding: 20px;
+}
+
+legend{
+	color: #f1f0f5;
+	text-align: center;	
+	font-family: 'Kaushan Script', cursive;
+	width: 30%;
+	margin: 0 auto;
+	border-bottom: 2px solid #fff;
+}
+
+.form-control{
+	border: 2px solid #000;
+}
+
+
+#submit{
+	color: #fff;
+	background: transparent;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+ 	font-size: 15px;
+ 	border: 2px solid #000;
+}
+
+#submit:hover{
+	background: orange;
+	color: #000;
+	font-weight: 400;
+}
+/*END OF CONTACT US STYLE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SART OF SOCIAL MEDIA ICON*/
+.social-media{
+	height: 10vh;
+	width: 100%;
+	background: #000;
+}
+
+.sm-icon{
+	height: 100%;
+	width: 80%;
+	background: #000;
+	border-bottom: 1px solid grey;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.icons{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	padding: 2px;
+	margin-right: 20px;
+}
+/*END OF SOCIAL MEDIA ICON*/
+
+
+/*FOOTER STYLE*/
+#footer{
+	height: 10vh;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	vertical-align: center;
+	font-weight: 300px;
+	font-family: 'Cinzel','Quicksand', serif, sans-serif ;
+	padding-top: 5px;
+}
+/*END OF FOOTER STYLE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
