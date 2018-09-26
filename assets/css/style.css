@@ -13,6 +13,11 @@ body{
 
 /*START OF NAV STYLE*/
 
+span.navbar-toggler-icon{
+	background: url(../images/burger2.png) no-repeat center center;
+	background-size: cover;
+}
+
 .navbar{
 	background: #251d03;
 }
@@ -37,6 +42,7 @@ a.navbar-brand{
 	background: #2b2626;
 	border: 1px solid orange;
 }
+
 
 .nav-link{
 	color: white;
@@ -405,9 +411,6 @@ a.navbar-brand{
 	width: 100%;
 }
 
-
-
-
 .carousel{
 	height: 50%;
 	width: 95%;
@@ -428,6 +431,7 @@ a.navbar-brand{
 	margin-top: 15px;
 }
 
+ 
 
 .card{
 	width: 13rem;
@@ -549,20 +553,43 @@ iframe{
 
 /*FOOTER STYLE*/
 #footer{
-	height: 10vh;
+	height: 20vh;
 	width: 100%;
 	background: #000;
 	color: #fff;
 	text-align: center;
 	vertical-align: center;
 	font-weight: 300px;
-	font-family: 'Cinzel','Quicksand', serif, sans-serif ;
+	font-family: 'Cinzel','Quicksand', serif, sans-serif;
 	padding-top: 5px;
 }
 
 #footer span{
 	color: #f7b900;
 }
+
+.btn-primary {
+	color: #fff;
+    background-color: #1d2022;
+    border-color: #fff;
+    background: url(../images/disclaimer2.png) no-repeat center center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.modal-body {
+	color: #000;
+}
+
+.modal-title{
+	color: #000;
+}
+.modal-body {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
 /*END OF FOOTER STYLE*/
 
 .carousel-image{
@@ -782,8 +809,9 @@ iframe{
 	}
 
 
-
-
+	.small, small{
+		font-size: 60%;
+	}
 
 
 
