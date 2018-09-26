@@ -135,7 +135,7 @@ a.navbar-brand{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-/*	background-attachment: fixed;*/
+	background-attachment: fixed;
 	padding-top: 24px;
 	margin-top: 65.5px;
 }
@@ -149,34 +149,23 @@ a.navbar-brand{
 	position: center
 }
 
-/*.boxs{
-	color: #fff;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	width: 70%;
-	padding: 40px;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-*/
-.boxs h1{
+/*.boxs h1{
 	font-size: 50px;
 	text-shadow: 
 
-}
+}*/
 
 #about{
-	height: 45vh;
-	background: #f5fdf54a;
+	height: 25vh;
 	padding: 30px 0 30px 0;
 	width: 100%;
-	margin-top: 10%;
+	background: #a7a5a5;
+	background-attachment: fixed;
 }
 
 #about h1{
 	text-align: center;
+	color: #1b1919;
 	font-family: 'Kaushan Script', cursive;
 }
 .content{
@@ -226,19 +215,21 @@ a.navbar-brand{
 .comment-section{
 	height: 10vh;
 	width: 100%;
-	background: #434343;
+	background: #848484;
+	color: #1b1919;
 }
 
 .comment-section h3{
 	width: 20%;
 	margin: 0 auto;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #FFF;
 	text-align: center;
 	padding: 10px;
+	font-family: 'Kaushan Script', cursive;
 }
 
 .container-comment{
-	background: #434343;
+	background: #848484;
 }
 /*END OF HOME STYLE*/
 
@@ -276,67 +267,82 @@ a.navbar-brand{
 }
 
 .about-entrepreneur{
-	padding-top: 20px;
-	height: 30vh;
+	padding-top: 50px;
+	height: 40vh;
 	width: 100%;
-	background: #fbfbfb;
+	background: url(../images/star.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+
 }
 
+/*#fbfbfb*/
 .about-entrepreneur h3{
 	width: 20%;
 	margin: 0 auto;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #fff;
 	text-align: center;
+	color: #fff;
 }
 
 .about-entrepreneur p{
 	text-align: center;
-	width: 70%;
-	margin: 0 auto;
+/*	width: 70%;
+	margin: 0 auto;*/
+	color: #fff;
 }
 
 
 
 .mission{
-	padding-top: 20px;
-	height: 30vh;
+	padding-top: 50px;
+	height: 40vh;
 	width: 100%;
-	background: #f1f1f3;
-
+	/*background: #f1f1f3;*/
+	background: url(../images/5.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .mission h3{
 	width: 20%;
 	margin: 0 auto;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #fff;
 	text-align: center;
+	color: #fff;
 }
 
 .mission p{
 	text-align: center;
+	color: #fff;
 }
 
 
 
 .vission{
-	padding-top: 20px;
-	height: 30vh;
+	padding-top: 50px;
+	height: 40vh;
 	width: 100%;
 	background: #fbfbfb;
 	margin-bottom: 10px;
-	background: #fbfbfb;
+	/*background: #fbfbfb;*/
+	background: url(../images/star.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
 
 }
 
 .vission h3{
 	width: 20%;
 	margin: 0 auto;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #fff;
 	text-align: center;
+	color: #fff;
 }
 
 .vission p{
 	text-align: center;
+	color: #fff;
 }
 
 
@@ -404,7 +410,7 @@ a.navbar-brand{
 
 .carousel{
 	height: 50%;
-	width: 70%;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -417,8 +423,9 @@ a.navbar-brand{
 	width: 20%;
 	margin: 0 auto;
 	text-align: center;
-	border-bottom: 2px solid #000;
+	border: 2px solid #000;
 	font-family: 'Kaushan Script', cursive;
+	margin-top: 15px;
 }
 
 
@@ -445,7 +452,7 @@ a.navbar-brand{
 .bg-categories{
 	height: 100vh;
 	width: 100%;
-	background: url(../images/bg.jpg) no-repeat center center; 
+	background: url(../images/map.jpg) no-repeat center center; 
 	background-size: cover;
 }
 
@@ -463,7 +470,7 @@ a.navbar-brand{
 	height: 70%;
 	width: 50%;
 	padding: 20px;
-	background: green;
+	background: #484541c9;
 	margin-top: 11%;
 }
 
@@ -582,8 +589,94 @@ iframe{
 		width: 100%;
 
 	}
+	
+	.comment-section h3{
+		font-size: 20px;
+		width: 50%;
+	}
+
+
+	.box h1{
+		font-size: 28px;
+	}
+
+
+	.cwrapper{
+		height: 80vh;
+		width: 100%;
+	}
+
+
+	.course-1{
+		width: 100%;
+		height: 35vh;
+	}
+
+	.course-2{
+		height: 25vh;
+		width: 50%;
+	}
+
+	.course-3{
+		height: 25vh;
+		width: 50%;
+	}
+
+	.course-4{
+		height: 25vh;
+		width: 50%;
+	}
+
+	.course-5{
+		height: 25vh;
+		width: 50%;
+	}
+
+
+	#about{
+		height: 20vh;
+	}
+
+	.comment-section h3{
+		margin-top: 20px;
+	}
+
+
+	.card{
+		width: 90%
+	}
+
+
+	.categories h3{
+		width: 50%;
+		border: 2px solid #000;
+	}
+
+
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*mobile style*/
@@ -608,7 +701,8 @@ iframe{
 
 
 	.comment-section h3{
-		font-size: 19px;
+		font-size: 20px;
+		width: 50%;
 	}
 
 
@@ -628,6 +722,79 @@ iframe{
 		width: 50%;
 		padding-top: 10px;
 	}
+
+	.map{
+		margin-top: 3%;
+	}
+
+	.categories h3{
+		width: 80%;
+	}
+
+	.box h1{
+		font-size: 22px;
+	}
+
+
+	#about h1{
+		font-size: 22px;
+	}
+
+	.content p{
+		font-size: 15px;
+	}
+
+	.cwrapper{
+		height: 80vh;
+		width: 100%;
+	}
+
+
+	.course-1{
+		width: 100%;
+		height: 30vh;
+	}
+
+	.course-2{
+		height: 25vh;
+		width: 50%;
+	}
+
+	.course-3{
+		height: 25vh;
+		width: 50%;
+	}
+
+	.course-4{
+		height: 25vh;
+		width: 50%;
+	}
+
+	.course-5{
+		height: 25vh;
+		width: 50%;
+	}
+
+
+
+	.about-entrepreneur h3{
+		width: 40%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
